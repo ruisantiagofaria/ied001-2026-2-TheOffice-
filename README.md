@@ -26,3 +26,18 @@ Permitir acompanhar o status dos pedidos, organizar a fila de preparo e gerencia
 
 Representar um pedido realizado, permitindo acompanhar seu recebimento, preparo e entrega.
 
+## Executar Python
+
+python3 src/python/main.py
+
+## Compilar e executar C
+
+mkdir -p build
+
+gcc -Wall -Wextra -std=c17 src/c/main.c -o build/main
+
+./build/main
+
+## Sprint atual
+
+<objetivo definido pelo grupo>
