@@ -1,0 +1,6 @@
+=== LISTAGEM DE PEDIDOS ===
+{'id': 1, 'cliente': 'A DEFINIR', 'itens': 'A DEFINIR', 'status': 'Recebido', 'valor_total': 0.0, 'forma_pagamento': 'A DEFINIR'}
+{'id': 2, 'cliente': 'A DEFINIR', 'itens': 'A DEFINIR', 'status': 'Em preparo', 'valor_total': 0.0, 'forma_pagamento': 'A DEFINIR'}
+{'id': 3, 'cliente': 'A DEFINIR', 'itens': 'A DEFINIR', 'status': 'Saiu para entrega', 'valor_total': 0.0, 'forma_pagamento': 'A DEFINIR'}
+=== BUSCA POR ID ===
+{'id': 2, 'cliente': 'A DEFINIR', 'itens': 'A DEFINIR', 'status': 'Em preparo', 'valor_total': 0.0, 'forma_pagamento': 'A DEFINIR'}

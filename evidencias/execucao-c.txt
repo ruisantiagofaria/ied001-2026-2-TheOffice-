@@ -1,0 +1,4 @@
+=== LISTAGEM DE PEDIDOS ===
+id=1 | cliente=A DEFINIR | itens=A DEFINIR | status=Recebido | valor=0.00 | pagamento=A DEFINIR
+id=2 | cliente=A DEFINIR | itens=A DEFINIR | status=Em preparo | valor=0.00 | pagamento=A DEFINIR
+id=3 | cliente=A DEFINIR | itens=A DEFINIR | status=Saiu para entrega | valor=0.00 | pagamento=A DEFINIR
