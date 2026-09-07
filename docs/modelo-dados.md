@@ -1,28 +1,29 @@
 # Modelo de Dados - Entidade Principal
 ## Entidade
-//tipo, pedido por exemplo
-<A_DEFINIR>
+Pedido
 
 ## Finalidade
-//No exemplo do pedido, seria algo como "A entidade representa um pedido rewalizado, permitindo acomopanha seu recebimento, preparo e entrega"
-<A_DEFINIR>
+Representar um pedido realizado, permitindo acompanhar seu recebimento, preparo e entrega.
 
 ## Atributos
-//Uma entidade central, 4-6 atributos, tipo cliente, produtos,status,etc.
-- id: <descrição>
-- ...
+
+- id: identificador único do pedido.
+- cliente: cliente responsável pelo pedido. A DEFINIR
+- itens: itens/produtos presentes no pedido. A DEFINIR
+- status: situação atual do pedido durante seu processamento.
+- valor_total: valor total do pedido. A DEFINIR
+- forma_pagamento: forma utilizada para realizar o pagamento. A DEFINIR
+
 ## Operações
-// pelo menos 4 operações (adicionar uma, talvez atualização de status?)
-- cadastrar(...)
-- buscar_por_id(...)
-- listar(...)
-- <quarta operação>
+
+- cadastrar(pedido)
+- buscar_por_id(id)
+- listar()
+- atualizar_status(id, novo_status)
 
 ## Regras / invariantes
-// De regras talvez todo pedido ter um identificador unico (ID) e possuir um estatus de entrega?
-1. <regra 1>
-2. <regra 2>
+1. Cada pedido deve possuir um identificador único.
+2. Um pedido deve possuir um status que represente sua situação atual no processo de atendimento.
 
 ## Operação provavelmente frequente
-//Se seguir nessas minhas ideias, a operação frequente seria atualização de status.
-<operação> - justificativa: <por quê>
+atualizar_status(id, novo_status) - justificativa: o sistema precisa acompanhar a evolução dos pedidos desde o recebimento até a entrega.
