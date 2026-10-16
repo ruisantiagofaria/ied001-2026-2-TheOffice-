@@ -41,3 +41,5 @@ gcc -Wall -Wextra -std=c17 src/c/main.c -o build/main
 ## Sprint atual
 
 <objetivo definido pelo grupo>
+
+Notion: https://app.notion.com/p/Anota-es-c759f0e8d8e382b99b7b812611472b7e
